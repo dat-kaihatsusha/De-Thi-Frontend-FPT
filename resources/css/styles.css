@@ -1,0 +1,143 @@
+/* ------------------------------------------------------------- */
+/* -----------------------DEFAULT SETUP---------------------------- */
+/* ---------------------------------------------------------------- */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #e7e2e2;
+    text-rendering: optimizeLegibility;/*Đây là cách hiển thị chữ trên website*/
+    /* Mặc định là 16px*/
+
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* --------------------------------------------------------------------- */
+/* --------------------------------HEADER------------------------------- */
+/* --------------------------------------------------------------------- */
+header{
+    background-color: #313030;
+    width: 900px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.row{
+    margin: 0 auto;
+}
+
+.logo{
+    height: 50px;
+    float: left;
+}
+
+header ul{
+    list-style: none;
+    float: right;
+    margin-right: 15px;
+}
+
+header ul li{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+}
+
+header .main-nav{
+    float: left;
+}
+
+header .main-nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+header .special1{
+    margin-left: 25px;
+}
+
+header .special{
+    color: white;
+}
+
+.test{
+    position: absolute;
+    left: 40%;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* -----------------------------SECTION---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+section .side_left_top{
+    min-height: 50px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+section .side_left_right{
+    min-height: 450px;
+    background-color: #ffffff;
+    margin-top: 15px;
+}
+
+.clear-fix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+section .side_right{
+    float: left;
+    background-color: #d6c7c7;
+    height: 76vh;
+}
+
+/* --------------------------------------------------------------- */
+/* ----------------------side_left_bottom------------------------- */
+/* --------------------------------------------------------------- */
+
+section .side_left_bottom{
+    margin-top: 15px;
+    background-color: #ffffff;
+    height: 66vh;
+}
+
+section .text{
+    color: white;
+    background-color: black;
+    padding: 8px;
+}
+
+section .side_left label{
+    margin-left: 50px;
+}
+
+section .side_left ul{
+    list-style: none;
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+section .side_left ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+section .side_left ul li input{
+    width: 100px;
+    background-color: black;
+    color: white;
+}
